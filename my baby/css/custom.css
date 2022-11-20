@@ -1,0 +1,24 @@
+.masthead {
+    background-size: cover ;
+    min-height: 100vh;
+    position: relative;
+    color: rgb(243, 229, 229) ;
+    text-shadow: 2px 2px 2px rgba(15, 15, 15, 0.2);
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .color-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(44, 14, 14, 0.2);
+    }
+    @media (max-width: 7200px) {
+        .masthead {
+            min-height: 100vh ;
+        }
+        h1 { 
+            font-size: calc(1.525rem+3.5vw);
+        }
+    }
